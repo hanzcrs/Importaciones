@@ -6,10 +6,9 @@ if ($con=conectar()){
 } else{
     echo "ha ocurrido un problema :(";
 }
-
-
-
 ?>
+
+<h3>Hola mundo!!</h3>
 
 
 
