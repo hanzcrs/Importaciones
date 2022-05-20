@@ -2,9 +2,14 @@
 include ("conexion.php");
 //Se llama a la funcion y se valida si hay conexion con un mensaje
 if ($con=conectar()){
-    echo "Se establecio conexion hacia el Servidor";
+    echo "Se estableció la conexión con el Servidor :D";
 } else{
-    echo "ha ocurrido un problema";
+    echo "ha ocurrido un problema :(";
 }
+
+
+
 ?>
+
+
 
